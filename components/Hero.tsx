@@ -98,7 +98,7 @@ const Hero: FC = () => {
 							</motion.ul>
 						</div>
 					</div>
-					<div className="w-full max-w-7xl p-10 absolute z-[999] bottom-[-150px] mx-10 min-h-[250px] bg-yellow border-2 border-yellow grid items-center justify-center grid-cols-2 gap-4 lg:grid-cols-4 lg:justify-between"></div>
+					<div className="w-full max-w-7xl p-10 absolute z-[997] bottom-[-150px] mx-10 min-h-[250px] bg-yellow border-2 border-yellow grid items-center justify-center grid-cols-2 gap-4 lg:grid-cols-4 lg:justify-between"></div>
 				</div>
 			</section>
 		</>

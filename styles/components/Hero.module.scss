@@ -5,13 +5,11 @@
 .hero {
 	@apply flex flex-col relative py-44 px-6 lg:px-20 items-center justify-center;
 
-	a,
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-family: $main;
+	ul,
+	ol,
+	li {
+		a {
+			font-family: $main;
+		}
 	}
 }
