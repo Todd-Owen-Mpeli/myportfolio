@@ -1,0 +1,10 @@
+// Imports
+@import "../base/colors";
+
+.nav {
+	@apply flex items-center justify-center gap-4 lg:gap-12;
+
+	svg:hover {
+		fill: $yellow;
+	}
+}

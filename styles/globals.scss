@@ -1,0 +1,43 @@
+// Imports
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./base/fonts";
+@import "./base/colors";
+@import "./components/Navbar.module.scss";
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	background: $flatBlueGrey;
+	font-family: -apple-system, $main, $body, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body::-webkit-scrollbar {
+	// display: none;
+	width: 0.65rem;
+	height: 0.65rem;
+}
+
+body::-webkit-scrollbar-track {
+	background: $flatBlueGreyDarker;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: $yellow;
+	border-radius: 5px;
+
+	&:hover {
+		transition: all 0.5s;
+		background-color: $purple;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	font-family: $body;
+}

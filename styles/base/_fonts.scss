@@ -1,0 +1,18 @@
+/*===== FONTS =====*/
+@font-face {
+	font-family: Inter;
+	src: url("../fonts/Inter-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: BTBeauSansMedium;
+	src: url("../fonts/BT-BeauSans-Medium.ttf");
+}
+@font-face {
+	font-family: ThePocong;
+	src: url("../fonts/The-Pocong_wght.otf");
+}
+
+// Font Stack Properties
+$main: "ThePocong", sans-serif;
+$body: "BTBeauSansMedium", sans-serif;
