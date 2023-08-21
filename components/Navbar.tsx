@@ -9,13 +9,13 @@ const Navbar: FC = () => {
 	return (
 		<>
 			<motion.nav
+				id="navbar"
 				initial={initial}
 				whileInView={stagger}
 				viewport={{once: true}}
-				className="flex items-center justify-between gap-4 py-6 lg:px-12"
+				className="flex items-center justify-center xl:justify-end gap-4 py-6 px-12"
 			>
-				<div className="text-6xl font-bold text-left text-white" />
-				<div className="flex items-center justify-center gap-4 lg:gap-12">
+				<div className="flex items-center justify-center gap-12">
 					<Link
 						target="blank"
 						href={`Todd Owen Mpeli CV.pdf`}

@@ -5,7 +5,6 @@
 
 @import "./base/fonts";
 @import "./base/colors";
-@import "./components/Navbar.module.scss";
 
 body {
 	padding: 0;
@@ -49,4 +48,8 @@ h4,
 h5,
 h6 {
 	font-family: $main;
+
+	span {
+		font-family: $main;
+	}
 }
