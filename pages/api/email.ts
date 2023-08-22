@@ -427,13 +427,14 @@ export default async function handler(
 																						target="_blank"
 																						><img
 																							alt="Developer Portfolio Logo"
-																							src="https://github.com/Todd-Owen-Mpeli/myportfolio/blob/main/public/img/professional-picture-two-16-11-2021-at-14-41.43)-two.jpg"
+																							src="https://cmsmponjolimpeliapartments.co.uk/wp-content/uploads/2023/08/20211116_144143-scaled.jpg"
 																							style="
 																								border: 0;
 																								width: 75px;
 																								height: 75px;
 																								display: block;
-																								object-fit: contain;
+																								object-fit: cover;
+																								border-radius: 50%;
 																								object-position: center;
 																							"
 																							title="Logo"
@@ -1309,13 +1310,14 @@ export default async function handler(
 																					>
 																						<img
 																							alt="Developer Portfolio Logo"
-																							src="https://github.com/Todd-Owen-Mpeli/myportfolio/blob/main/public/img/professional-picture-two-16-11-2021-at-14-41.43)-two.jpg"
+																							src="https://cmsmponjolimpeliapartments.co.uk/wp-content/uploads/2023/08/20211116_144143-scaled.jpg"
 																							style="
 																								border: 0;
 																								width: 75px;
 																								height: 75px;
 																								display: block;
-																								object-fit: contain;
+																								object-fit: cover;
+																								border-radius: 50%;
 																								object-position: center;
 																							"
 																							title="Logo"
@@ -1491,8 +1493,7 @@ export default async function handler(
 																								mso-line-height-alt: 14.399999999999999px;
 																							"
 																						>
-																							© 2023 BlueInventory. All rights
-																							reserved.
+																							Todd Owen Mpeli Developer Portfolio.
 																						</p>
 																					</div>
 																				</div>
