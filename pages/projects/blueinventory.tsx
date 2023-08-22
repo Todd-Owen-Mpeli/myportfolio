@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 import TechStack from "@/components/TechStack";
 import Experience from "@/components/Experience";
 
-const Blueinventory: NextPage = () => {
+const BlueInventory: NextPage = () => {
 	return (
 		<motion.div
 			exit={{
@@ -25,4 +25,4 @@ const Blueinventory: NextPage = () => {
 	);
 };
 
-export default Blueinventory;
+export default BlueInventory;

@@ -3,14 +3,17 @@ import {FC} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import styles from "@/styles/components/Hero.module.scss";
+import styles from "@/styles/components/TechStack.module.scss";
 import {initial, fadeInUp, stagger} from "@/animations/animations";
 
 const TechStack: FC = () => {
 	return (
 		<div>
 			<div
-				className="p-10 z-[997] min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+				className={
+					styles.techStack +
+					" p-10 z-[997] min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+				}
 				style={{
 					backgroundImage: `url("/svg/background/stacked-waves-haikei-orange-yellow.svg")`,
 				}}

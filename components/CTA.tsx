@@ -13,7 +13,7 @@ const CTA: FC = () => {
 
 	return (
 		<section
-			id="blueInventory"
+			id="BlueInventory"
 			className={"bg-center bg-no-repeat bg-cover"}
 			style={{
 				backgroundImage: `url("/svg/background/stacked-peaks-haikei-flatBlueGrey.svg")`,

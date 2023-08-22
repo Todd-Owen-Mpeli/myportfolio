@@ -13,7 +13,7 @@ const BlueInventory: FC = () => {
 	return (
 		<>
 			<section
-				id="blueInventory"
+				id="BlueInventory"
 				className={styles.starProject + " bg-center bg-no-repeat bg-cover"}
 				style={{
 					backgroundImage: `url("/svg/background/stacked-peaks-haikei-flatBlueGrey.svg")`,
@@ -82,7 +82,7 @@ const BlueInventory: FC = () => {
 								tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 							/>
 							<div className="flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start">
-								<Link target="blank" href={`/projects/blueInventory`}>
+								<Link target="blank" href={`/projects/BlueInventory`}>
 									<motion.button
 										role="button"
 										type="button"
@@ -99,7 +99,7 @@ const BlueInventory: FC = () => {
 										</div>
 									</motion.button>
 								</Link>
-								<Link target="blank" href={`https://blueinventory.vercel.app/`}>
+								<Link target="blank" href={`https://BlueInventory.vercel.app/`}>
 									<motion.button
 										role="button"
 										type="button"
@@ -160,7 +160,7 @@ const BlueInventory: FC = () => {
 							<Link
 								target="blank"
 								className="w-full h-full"
-								href={`https://blueinventory.vercel.app`}
+								href={`https://BlueInventory.vercel.app`}
 							>
 								<Image
 									width={1000}

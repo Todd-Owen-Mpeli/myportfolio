@@ -1,0 +1,118 @@
+// Imports
+@import "../base/fonts";
+@import "../base/colors";
+
+.techStack {
+	.skills {
+		a:hover {
+			@apply transition-all ease-in-out duration-500;
+
+			svg {
+				fill: $flatBlueGreyDarker;
+
+				rect {
+					fill: $flatBlueGreyDarker;
+				}
+			}
+
+			h3 {
+				@apply text-flatBlueGrey;
+			}
+		}
+
+		.react {
+			@apply z-[997] block absolute cursor-pointer w-[50px] h-[50px] top-[20px];
+
+			span {
+				height: 20px;
+				border: 3px solid #fff;
+				width: 65px;
+				left: 15px;
+				display: block;
+				position: absolute;
+				border-radius: 50%;
+				transition: all 300ms cubic-bezier(0.61, 0.01, 0.42, 1);
+				background: transparent;
+				animation: atom 300ms linear 1;
+			}
+
+			span:nth-child(1) {
+				transform: rotate(-33deg);
+			}
+
+			span:nth-child(2) {
+				transform: rotate(90deg);
+			}
+
+			span:nth-child(3) {
+				transform: rotate(33deg);
+			}
+
+			span:nth-child(3):before {
+				animation: ball 1.5s linear infinite;
+				content: "";
+				border: 3px solid #fff;
+				display: block;
+				position: relative;
+				top: 0.25px;
+				width: 9px;
+				height: 9px;
+				opacity: 1;
+				border-radius: 50%;
+				background: #fff;
+				transition: opacity 600ms cubic-bezier(0.61, 0.01, 0.42, 1);
+			}
+		}
+	}
+}
+
+@keyframes atom {
+	0% {
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes division {
+	0% {
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes ball {
+	0% {
+		left: -20%;
+		top: 10%;
+	}
+	10% {
+		left: 10%;
+		top: -35%;
+	}
+	25% {
+		left: 45%;
+		top: -50%;
+	}
+	40% {
+		left: 80%;
+		top: -20%;
+	}
+	50% {
+		left: 98%;
+		top: 18%;
+	}
+	60% {
+		left: 80%;
+		top: 50%;
+	}
+	75% {
+		left: 45%;
+		top: 80%;
+	}
+	90% {
+		left: 0%;
+		top: 60%;
+	}
+	100% {
+		left: -20%;
+		top: 10%;
+	}
+}
