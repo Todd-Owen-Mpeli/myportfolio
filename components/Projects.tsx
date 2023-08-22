@@ -3,7 +3,7 @@ import {FC} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import {initial, fadeInUp} from "@/animations/animations";
+import {initial, fadeInUp, initialTwo, fadeIn} from "@/animations/animations";
 
 // Components
 import Paragraph from "@/components/Elements/Paragraph";
@@ -66,8 +66,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-pinkRed focus:ring-offset-1"
 										>
@@ -83,8 +83,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-pinkRed focus:ring-offset-1"
 										>
@@ -103,8 +103,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 										>
 											<svg
@@ -176,8 +176,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-pinkRed focus:ring-offset-1"
 										>
@@ -196,8 +196,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-yellow font-semibold px-6 py-2 transition-all group ease-in-out duration-200"
 										>
@@ -216,8 +216,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 										>
 											<svg
@@ -289,8 +289,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-pinkRed focus:ring-offset-1"
 										>
@@ -309,8 +309,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-yellow font-semibold px-6 py-2 transition-all group ease-in-out duration-200"
 										>
@@ -329,8 +329,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 										>
 											<svg
@@ -402,8 +402,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-pinkRed focus:ring-offset-1"
 										>
@@ -422,8 +422,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 											className="relative flex items-center justify-center rounded-sm overflow-hidden bg-yellow font-semibold px-6 py-2 transition-all group ease-in-out duration-200"
 										>
@@ -442,8 +442,8 @@ const Projects: FC = () => {
 										<motion.button
 											role="button"
 											type="button"
-											initial={initial}
-											whileInView={fadeInUp}
+											initial={initialTwo}
+											whileInView={fadeIn}
 											viewport={{once: true}}
 										>
 											<svg
