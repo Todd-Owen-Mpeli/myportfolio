@@ -39,7 +39,7 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/DBMX-Racing-Motocross-Accessories-Parts.jpg"
 									alt={"DBMX Racing Project"}
-									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[300px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
@@ -146,7 +146,7 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/Freemans-Event-Partners.png"
 									alt={"Freemans Event Partners Project"}
-									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[300px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
@@ -259,7 +259,7 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/MponjoliMpeli-Apartments.png"
 									alt={"MponjoliMpeli Apartments Project"}
-									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[300px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
@@ -372,7 +372,7 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/kandys-launderette.png"
 									alt={"kandys launderette Project"}
-									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[300px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
