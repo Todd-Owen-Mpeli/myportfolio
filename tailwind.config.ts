@@ -18,10 +18,14 @@ const config: Config = {
 			lightGrey: "#f7f7f7",
 
 			// Main colors
+			blue: "#2563eb",
 			yellow: "#e78f01",
 			purple: "#a96df1",
 			pinkRed: "#e20031",
+			blueDark: "#033dbb",
+			yellowDark: "#c47a02",
 			pinkPurple: "#9a1a76",
+			pinkRedDark: "#a00224",
 			flatBlueGrey: "#212535",
 			flatBlueGreyDarker: "#15171e",
 		},

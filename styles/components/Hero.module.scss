@@ -3,7 +3,7 @@
 @import "../base/colors";
 
 .hero {
-	@apply flex flex-col relative py-52 sm:py-44 px-6 lg:px-20 items-center justify-center;
+	@apply flex flex-col relative xl:pt-[15rem] py-52 sm:py-44 px-6 lg:px-20 items-center justify-center;
 
 	ul,
 	ol,

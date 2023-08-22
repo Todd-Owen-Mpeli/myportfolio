@@ -14,6 +14,7 @@ import CookiePolicyCard from "@/components/Elements/CookiePolicyCard";
 // Styling
 import "../styles/globals.scss";
 import Layout from "@/components/Layout/Layout";
+import Footer from "@/components/Footer";
 
 // Check that PostHog is client-side (used to handle Next.js SSR)
 if (typeof window !== "undefined") {
@@ -120,6 +121,7 @@ export default function App({Component, pageProps}: AppProps) {
 				<Layout>
 					<Loading />
 					<Component {...pageProps} />
+					<Footer />
 				</Layout>
 			</GlobalContext.Provider>
 		</PostHogProvider>

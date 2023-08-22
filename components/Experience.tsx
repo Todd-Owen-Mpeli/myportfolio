@@ -26,7 +26,7 @@ const Experience: FC = () => {
 							initial={initial}
 							viewport={{once: true}}
 							whileInView={fadeInUp}
-							className="text uppercase font-bold text-9xl text-purple"
+							className="flex flex-col items-center gap-8 sm:flex-row text-center uppercase font-bold text-9xl text-purple"
 						>
 							<span className="">2</span>
 							<span className="text-4xl tracking-widest">plus</span>
@@ -45,7 +45,7 @@ const Experience: FC = () => {
 							initial={initial}
 							viewport={{once: true}}
 							whileInView={fadeInUp}
-							className="text uppercase font-bold text-9xl text-purple"
+							className="flex flex-col items-center gap-8 sm:flex-row text-center uppercase font-bold text-9xl text-purple"
 						>
 							<span className="">199</span>
 							<span className="text-4xl tracking-widest">plus</span>
@@ -60,7 +60,7 @@ const Experience: FC = () => {
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl mb-16 text-white"
+						className="break-words text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl mb-16 text-white"
 					>
 						Web Development
 					</motion.h3>
