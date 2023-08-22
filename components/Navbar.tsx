@@ -13,7 +13,10 @@ const Navbar: FC = () => {
 				initial={initial}
 				whileInView={stagger}
 				viewport={{once: true}}
-				className="flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGrey"
+				className="flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGreyDarker bg-center bg-no-repeat bg-cover"
+				style={{
+					backgroundImage: `url("/svg/background/stacked-waves-haikei-flatBlueGrey-two.svg")`,
+				}}
 			>
 				<div className={styles.nav}>
 					<Link target="blank" href={`/`}>

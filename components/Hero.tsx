@@ -45,6 +45,10 @@ const Hero: FC = () => {
 								content={`<p>A passionate front-end developer with a love for crafting immersive digital experiences. With a deep-rooted knowledge in <span><a href="#skills">Next.js 13</a></span>, <span><a href="#skills">TypeScript v5</a></span>, <span><a href="#skills">React 18</a></span>, <span><a href="#skills">GraphQL 16</a></span>, <span><a href="#skills">Headless CMS</a></span> and the intricate world of Web Development.</p>`}
 								tailwindStyling="mt-16 mb-6 text-xl sm:text-2xl text-white font-normal text-left max-w-3xl w-full"
 							/>
+							{/* <Paragraph
+								content={`<p>A passionate front-end developer with a love for crafting immersive digital experiences. With a deep-rooted knowledge in Next.js 13, TypeScript v5, React 18, GraphQL 16, Headless CMS and the intricate world of Web Development.</p>`}
+								tailwindStyling="mt-16 mb-6 text-xl sm:text-2xl text-white font-normal text-left max-w-3xl w-full"
+							/> */}
 						</div>
 						<div className="w-full lg:w-1/2">
 							<motion.ul
