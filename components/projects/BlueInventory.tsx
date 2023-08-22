@@ -82,7 +82,7 @@ const BlueInventory: FC = () => {
 								tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 							/>
 							<div className="flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start">
-								<Link target="blank" href={`/projects/BlueInventory`}>
+								<Link target="blank" href={`/projects/blueinventory`}>
 									<motion.button
 										role="button"
 										type="button"
