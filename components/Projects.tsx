@@ -13,7 +13,7 @@ const Projects: FC = () => {
 		<>
 			<section
 				id="projects"
-				className="px-10 py-44 min-h-[250px] bg-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+				className="px-4 sm:px-10 py-24 sm:py-44 min-h-[250px] bg-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
 				style={{
 					backgroundImage: `url("/svg/background/stacked-waves-haikei-purple-pinkPurple.svg")`,
 				}}
@@ -28,7 +28,7 @@ const Projects: FC = () => {
 						Projects
 					</motion.h4>
 					<div className="mt-12 xl:mt-28 grid grid-cols-1 md:grid-cols-2 items-start justify-between gap-6 xl:gap-y-12">
-						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker p-8 rounded-md">
+						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker py-8 px-4 sm:p-8 rounded-md">
 							<Link
 								target="blank"
 								className="w-full h-full"
@@ -39,12 +39,12 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/DBMX-Racing-Motocross-Accessories-Parts.jpg"
 									alt={"DBMX Racing Project"}
-									className="w-full rounded-md h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex gap-4 items-center justify-between w-full">
+							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										DBMX Racing Website
 									</h3>
 									<Paragraph
@@ -52,7 +52,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-left font-[900] text-xl text-white">
+										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -135,7 +135,7 @@ const Projects: FC = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker p-8 rounded-md">
+						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker py-8 px-4 sm:p-8 rounded-md">
 							<Link
 								target="blank"
 								className="w-full h-full"
@@ -146,12 +146,12 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/Freemans-Event-Partners.png"
 									alt={"Freemans Event Partners Project"}
-									className="w-full rounded-md h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex gap-4 items-center justify-between w-full">
+							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										Freemans Event Partners Website
 									</h3>
 									<Paragraph
@@ -159,7 +159,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-left font-[900] text-xl text-white">
+										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -248,7 +248,7 @@ const Projects: FC = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker p-8 rounded-md">
+						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker py-8 px-4 sm:p-8 rounded-md">
 							<Link
 								target="blank"
 								className="w-full h-full"
@@ -259,12 +259,12 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/MponjoliMpeli-Apartments.png"
 									alt={"MponjoliMpeli Apartments Project"}
-									className="w-full rounded-md h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex gap-4 items-center justify-between w-full">
+							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										MponjoliMpeli Apartments Website
 									</h3>
 									<Paragraph
@@ -272,7 +272,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-left font-[900] text-xl text-white">
+										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -361,7 +361,7 @@ const Projects: FC = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker p-8 rounded-md">
+						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker py-8 px-4 sm:p-8 rounded-md">
 							<Link
 								target="blank"
 								className="w-full h-full"
@@ -372,12 +372,12 @@ const Projects: FC = () => {
 									height={1000}
 									src="/img/projects/kandys-launderette.png"
 									alt={"kandys launderette Project"}
-									className="w-full rounded-md h-[400px] mb-6 object-center object-cover"
+									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex gap-4 items-center justify-between w-full">
+							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										Kandys Launderette Website
 									</h3>
 									<Paragraph
@@ -385,7 +385,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-left font-[900] text-xl text-white">
+										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt4">
 											Tech stack
 										</h3>
 										<Paragraph

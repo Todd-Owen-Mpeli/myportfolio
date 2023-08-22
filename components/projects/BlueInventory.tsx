@@ -72,17 +72,17 @@ const BlueInventory: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center mb-3 lg:text-left text-2xl text-purple"
+								className="text-center mb-3 lg:text-left text-xl sm:text-2xl text-purple"
 							>
 								BlueInventory is your powerful non-commerce inventory management
 								solution. Simpler Inventory, easier growth, better management.
 							</motion.span>
 							<Paragraph
 								content={`<p>BlueInventory was born out of the vision to revolutionize how businesses approach inventory management. By reducing complexity, enhancing precision, and fostering growth, it's poised to become the industry benchmark, setting new standards for operational excellence.</p>`}
-								tailwindStyling="mb-6 text-xl text-white text-center lg:text-left"
+								tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 							/>
 							<div className="flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start">
-								<Link target="blank" href={`/projects/blueinventory`}>
+								<Link target="blank" href={`/projects/blueInventory`}>
 									<motion.button
 										role="button"
 										type="button"

@@ -50,6 +50,7 @@ const Navbar: FC = () => {
 				<div className="flex items-center justify-center xl:justify-end gap-12">
 					<Link
 						target="blank"
+						className="hidden sm:block"
 						href={`Todd Owen Mpeli CV.pdf`}
 						download="Todd Owen Mpeli CV.pdf"
 					>
@@ -85,9 +86,15 @@ const Navbar: FC = () => {
 						</motion.button>
 					</Link>
 					<div
-						className={styles.nav + " flex items-center justify-center gap-12"}
+						className={
+							styles.nav + " flex items-center justify-center gap-6 sm:gap-12"
+						}
 					>
-						<Link target="blank" href={`https://github.com/Todd-Owen-Mpeli`}>
+						<Link
+							target="blank"
+							// className="hidden sm:block"
+							href={`https://github.com/Todd-Owen-Mpeli`}
+						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								version="1.1"
@@ -114,7 +121,7 @@ const Navbar: FC = () => {
 						</Link>
 						<Link
 							target="blank"
-							className="hidden sm:block"
+							// className="hidden sm:block"
 							href={`https://www.linkedin.com/in/todd-mpeli-831b18121/`}
 						>
 							<svg

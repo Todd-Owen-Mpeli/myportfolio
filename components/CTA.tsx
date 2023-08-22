@@ -71,7 +71,7 @@ const CTA: FC = () => {
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="text-center mb-3 lg:text-left text-2xl text-purple"
+						className="text-center mb-3 lg:text-left text-xl sm:text-2xl text-purple"
 					>
 						Together, we can transform your vision into functional, user-centric
 						software that stands out in the digital landscape. Don&apos;t
@@ -79,7 +79,7 @@ const CTA: FC = () => {
 					</motion.span>
 					<Paragraph
 						content={`<p>I'm passionate about turning ideas into reality through elegant code and innovative solutions. Whether you're looking to build a web application, develop a fully featured website, or enhance your existing software, I'm here to help.</p>`}
-						tailwindStyling="mb-6 text-xl text-white text-center lg:text-left"
+						tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 					/>
 					<div className="flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start">
 						<Link

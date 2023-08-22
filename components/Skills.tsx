@@ -10,7 +10,7 @@ const Skills: FC = () => {
 		<>
 			<div
 				id="skills"
-				className="px-10 py-44 min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+				className="px-4 sm:px-10 py-24 sm:py-44 min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
 				style={{
 					backgroundImage: `url("/svg/background/stacked-waves-haikei-orange-yellow.svg")`,
 				}}

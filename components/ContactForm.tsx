@@ -143,7 +143,7 @@ const ContactForm: FC = () => {
 							backgroundImage: `url("/svg/background/stacked-waves-haikei-purple-pinkPurple.svg")`,
 						}}
 					/>
-					<div className="w-full px-8 py-8 bg-white lg:w-1/2 lg:px-12">
+					<div className="w-full px-8 py-8 bg-white lg:w-1/2 lg:px-12 overflow-hidden">
 						<Formik
 							onSubmit={formik?.onSubmit}
 							initialValues={formik?.initialValues}

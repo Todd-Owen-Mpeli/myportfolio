@@ -43,7 +43,7 @@ const Hero: FC = () => {
 							</motion.h1>
 							<Paragraph
 								content={`<p>A passionate front-end developer with a love for crafting immersive digital experiences. With a deep-rooted knowledge in <span><a href="#skills">Next.js 13</a></span>, <span><a href="#skills">TypeScript v5</a></span>, <span><a href="#skills">React 18</a></span>, <span><a href="#skills">GraphQL 16</a></span>, <span><a href="#skills">Headless CMS</a></span> and the intricate world of Web Development.</p>`}
-								tailwindStyling="mt-16 mb-6 text-2xl text-white font-normal text-left max-w-3xl w-full"
+								tailwindStyling="mt-16 mb-6 text-xl sm:text-2xl text-white font-normal text-left max-w-3xl w-full"
 							/>
 						</div>
 						<div className="w-full lg:w-1/2">
@@ -55,7 +55,7 @@ const Hero: FC = () => {
 							>
 								<li>
 									<Link
-										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[5px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-5xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] lg:mr-[-75px] xl:mr-[-100px] hover:mr-[25px] hover:md:mr-[50px] hover:xl:mr-[100px]"
 										href="#projects"
 									>
 										projects
@@ -63,7 +63,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-5xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] lg:mr-[-75px] xl:mr-[-100px] hover:mr-[25px] hover:md:mr-[50px] hover:xl:mr-[100px]"
 										href="#experience"
 									>
 										about
@@ -71,7 +71,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-5xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] lg:mr-[-75px] xl:mr-[-100px] hover:mr-[25px] hover:md:mr-[50px] hover:xl:mr-[100px]"
 										href="#skills"
 									>
 										skills
@@ -79,7 +79,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[15px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-5xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] lg:mr-[-75px] xl:mr-[-100px] hover:mr-[25px] hover:md:mr-[50px] hover:xl:mr-[100px]"
 										href="#contact"
 									>
 										contact
@@ -89,7 +89,7 @@ const Hero: FC = () => {
 						</div>
 					</div>
 					<div
-						className="w-full max-w-7xl p-10 absolute z-[997] bottom-[-475px] md:bottom-[-350px] lg:bottom-[-225px] mx-10 min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+						className="w-full max-w-7xl p-10 absolute z-[997] bottom-[-525px] md:bottom-[-350px] lg:bottom-[-225px] mx-10 min-h-[250px] bg-yellow border-2 border-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
 						style={{
 							backgroundImage: `url("/svg/background/stacked-waves-haikei-orange-yellow.svg")`,
 						}}
