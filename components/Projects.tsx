@@ -27,7 +27,7 @@ const Projects: FC = () => {
 					>
 						Projects
 					</motion.h4>
-					<div className="mt-12 xl:mt-28 grid grid-cols-1 md:grid-cols-2 items-start justify-between gap-6 xl:gap-y-12">
+					<div className="mt-12 xl:mt-28 grid grid-cols-1 lg:grid-cols-2 items-start justify-between gap-6 xl:gap-y-12">
 						<div className="flex flex-col gap-2 items-center justify-center bg-flatBlueGreyDarker py-8 px-4 sm:p-8 rounded-md">
 							<Link
 								target="blank"
@@ -42,9 +42,9 @@ const Projects: FC = () => {
 									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
+							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										DBMX Racing Website
 									</h3>
 									<Paragraph
@@ -52,7 +52,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4">
+										<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -61,7 +61,7 @@ const Projects: FC = () => {
 										/>
 									</div>
 								</div>
-								<div className="flex flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
+								<div className="flex flex-col lg:flex-row xl:flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
 									<Link target="blank" href={`/projects/DBMXRacing`}>
 										<motion.button
 											role="button"
@@ -149,9 +149,9 @@ const Projects: FC = () => {
 									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
+							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										Freemans Event Partners Website
 									</h3>
 									<Paragraph
@@ -159,7 +159,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
+										<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -168,7 +168,7 @@ const Projects: FC = () => {
 										/>
 									</div>
 								</div>
-								<div className="flex flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
+								<div className="flex flex-col lg:flex-row xl:flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
 									<Link
 										target="blank"
 										href={`https://github.com/bracecreative/freemans`}
@@ -262,9 +262,9 @@ const Projects: FC = () => {
 									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
+							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										MponjoliMpeli Apartments Website
 									</h3>
 									<Paragraph
@@ -272,7 +272,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt4">
+										<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -281,7 +281,7 @@ const Projects: FC = () => {
 										/>
 									</div>
 								</div>
-								<div className="flex flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
+								<div className="flex flex-col lg:flex-row xl:flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
 									<Link
 										target="blank"
 										href={`https://github.com/Todd-Owen-Mpeli/MponjoliMpeli-Apartments`}
@@ -375,9 +375,9 @@ const Projects: FC = () => {
 									className="w-full rounded-md h-[100px] sm:h-[400px] mb-6 object-center object-cover"
 								/>
 							</Link>
-							<div className="flex flex-col sm:flex-row gap-4 items-center justify-between w-full">
+							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
 										Kandys Launderette Website
 									</h3>
 									<Paragraph
@@ -385,7 +385,7 @@ const Projects: FC = () => {
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
-										<h3 className="uppercase tracking-widest text-center sm:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt4">
+										<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl text-white mt-8 sm:mt-4 mt-8 sm:mt-4">
 											Tech stack
 										</h3>
 										<Paragraph
@@ -394,7 +394,7 @@ const Projects: FC = () => {
 										/>
 									</div>
 								</div>
-								<div className="flex flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
+								<div className="flex flex-col lg:flex-row xl:flex-col gap-6 mt-6 items-center justify-center lg:justify-start">
 									<Link
 										target="blank"
 										href={`https://github.com/Todd-Owen-Mpeli/KandysLaunderette`}

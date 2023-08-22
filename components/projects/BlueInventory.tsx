@@ -174,7 +174,7 @@ const BlueInventory: FC = () => {
 						<div
 							className={
 								styles.techStack +
-								" w-full xl:w-[25%] flex flex-col justify-between p-8 rounded-lg bg-white"
+								" w-full xl:w-[25%] flex flex-col sm:flex-row xl:flex-col justify-between gap-16 sm:justify-center xl:justify-between p-8 rounded-lg bg-white"
 							}
 						>
 							<div className="flex flex-col">
