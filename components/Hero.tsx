@@ -55,7 +55,7 @@ const Hero: FC = () => {
 							>
 								<li>
 									<Link
-										className="uppercase font-[900] text-8xl md:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[5px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[5px] hover:md:mr-[100px]"
 										href="#projects"
 									>
 										projects
@@ -63,7 +63,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-8xl md:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
 										href="#experience"
 									>
 										about
@@ -71,7 +71,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-8xl md:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[50px] hover:md:mr-[100px]"
 										href="#skills"
 									>
 										skills
@@ -79,7 +79,7 @@ const Hero: FC = () => {
 								</li>
 								<li>
 									<Link
-										className="uppercase font-[900] text-8xl md:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[15px] hover:md:mr-[100px]"
+										className="uppercase font-[900] text-7xl md:text-8xl xl:text-9xl text-pinkPurple hover:text-yellow transition-all ease-in-out duration-500 md:mr-[50px] xl:mr-[-100px] hover:mr-[15px] hover:md:mr-[100px]"
 										href="#contact"
 									>
 										contact
