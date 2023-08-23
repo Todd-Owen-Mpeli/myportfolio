@@ -75,7 +75,7 @@ const ContentGrid: FC<IContentGrid> = ({
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl text-white"
+						className="break-words text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl text-white"
 					>
 						{title}
 					</motion.h2>
