@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://localhost/api/sitemap.xml
+Sitemap: http://toddowenmpeli.vercel.app/api/sitemap.xml

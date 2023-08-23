@@ -2,12 +2,20 @@
 @import "../base/colors";
 
 .nav {
-	svg:hover {
-		fill: $yellow;
+	background-image: none;
 
-		g {
-			path {
-				fill: $yellow;
+	@screen xl {
+		background-image: url("/svg/background/stacked-waves-haikei-flatBlueGrey-two.svg");
+	}
+
+	.navButton {
+		svg:hover {
+			fill: $yellow;
+
+			g {
+				path {
+					fill: $yellow;
+				}
 			}
 		}
 	}

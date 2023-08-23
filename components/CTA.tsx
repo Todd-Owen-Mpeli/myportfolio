@@ -3,7 +3,7 @@ import {FC} from "react";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import {useGlobalContext} from "@/context/Global";
-import {initial, fadeInUp} from "@/animations/animations";
+import {initial, fadeInUp, initialTwo, fadeIn} from "@/animations/animations";
 
 // Components
 import Paragraph from "@/components/Elements/Paragraph";
@@ -104,14 +104,14 @@ const CTA: FC = () => {
 						</Link>
 						<Link
 							target="blank"
-							href={`Todd Owen Mpeli CV.pdf`}
-							download="Todd Owen Mpeli CV.pdf"
+							download="Todd Owen Mpeli - Front-end Developer CV.pdf"
+							href={`/common/Todd-Owen-Mpeli-Front-end-Developer-CV.pdf`}
 						>
 							<motion.button
 								role="button"
 								type="button"
-								initial={initial}
-								whileInView={fadeInUp}
+								initial={initialTwo}
+								whileInView={fadeIn}
 								viewport={{once: true}}
 								aria-label="Download CV Button"
 								className="relative flex items-center justify-center rounded-sm overflow-hidden  bg-yellow font-semibold px-6 py-3 transition-all group ease-in-out duration-200"

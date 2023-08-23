@@ -66,11 +66,11 @@ const Experience: FC = () => {
 					</motion.h3>
 					<Paragraph
 						content={`<p>I enjoy solving problems with clean scalable solutions. I am dedicated to bringing ideas to life through the power of code and creativity. My goal is to blend seamless functionality with stunning aesthetics, all while ensuring top-tier user experiences. </p>`}
-						tailwindStyling="mt-3 mb-6 text-xl sm:text-2xl text-white font-medium text-center sm:text-left"
+						tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 					/>
 					<Paragraph
 						content={`<p>I thrive on the challenges that front-end development offers and constantly seek innovative ways to push the boundaries of what's possible. Join me on this journey as I explore and conquer all things front-end, one pixel at a time.</p>`}
-						tailwindStyling="mt-3 mb-6 text-xl sm:text-2xl text-darkGrey font-medium text-center sm:text-left"
+						tailwindStyling="mb-6 text-xl sm:text-2xl text-darkGrey text-center lg:text-left"
 					/>
 				</div>
 			</div>

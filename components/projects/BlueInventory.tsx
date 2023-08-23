@@ -16,7 +16,7 @@ const BlueInventory: FC = () => {
 				id="BlueInventory"
 				className={styles.starProject + " bg-center bg-no-repeat bg-cover"}
 				style={{
-					backgroundImage: `url("/svg/background/stacked-peaks-haikei-flatBlueGrey.svg")`,
+					backgroundImage: `url("/svg/background/stacked-peaks-haikei-blue-darkBlue.svg")`,
 				}}
 			>
 				<div className="flex flex-col gap-6 xl:gap-16 py-16 px-6 sm:px-20">
@@ -72,7 +72,7 @@ const BlueInventory: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center mb-3 lg:text-left text-xl sm:text-2xl text-purple"
+								className="text-center mb-3 lg:text-left text-xl sm:text-2xl text-white"
 							>
 								BlueInventory is your powerful non-commerce inventory management
 								solution. Simpler Inventory, easier growth, better management.
@@ -81,8 +81,13 @@ const BlueInventory: FC = () => {
 								content={`<p>BlueInventory was born out of the vision to revolutionize how businesses approach inventory management. By reducing complexity, enhancing precision, and fostering growth, it's poised to become the industry benchmark, setting new standards for operational excellence.</p>`}
 								tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
 							/>
-							<div className="flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start">
-								<Link target="blank" href={`/projects/blueinventory`}>
+							<div
+								className={
+									styles.links +
+									" flex flex-col sm:flex-row gap-6 xl:gap-12 mt-6 items-center justify-center lg:justify-start"
+								}
+							>
+								<Link target="" href={`/projects/blueinventory`}>
 									<motion.button
 										role="button"
 										type="button"
@@ -137,7 +142,7 @@ const BlueInventory: FC = () => {
 											width="512"
 											height="512"
 											fill="#e78f01"
-											className="w-7 h-7 object-center object-contain"
+											className="w-11 h-11 object-center object-contain"
 										>
 											<g>
 												<path d="M12,0.296c-6.627,0-12,5.372-12,12c0,5.302,3.438,9.8,8.206,11.387   c0.6,0.111,0.82-0.26,0.82-0.577c0-0.286-0.011-1.231-0.016-2.234c-3.338,0.726-4.043-1.416-4.043-1.416   C4.421,18.069,3.635,17.7,3.635,17.7c-1.089-0.745,0.082-0.729,0.082-0.729c1.205,0.085,1.839,1.237,1.839,1.237   c1.07,1.834,2.807,1.304,3.492,0.997C9.156,18.429,9.467,17.9,9.81,17.6c-2.665-0.303-5.467-1.332-5.467-5.93   c0-1.31,0.469-2.381,1.237-3.221C5.455,8.146,5.044,6.926,5.696,5.273c0,0,1.008-0.322,3.301,1.23   C9.954,6.237,10.98,6.104,12,6.099c1.02,0.005,2.047,0.138,3.006,0.404c2.29-1.553,3.297-1.23,3.297-1.23   c0.653,1.653,0.242,2.873,0.118,3.176c0.769,0.84,1.235,1.911,1.235,3.221c0,4.609-2.807,5.624-5.479,5.921   c0.43,0.372,0.814,1.103,0.814,2.222c0,1.606-0.014,2.898-0.014,3.293c0,0.319,0.216,0.694,0.824,0.576   c4.766-1.589,8.2-6.085,8.2-11.385C24,5.669,18.627,0.296,12,0.296z" />
@@ -156,7 +161,7 @@ const BlueInventory: FC = () => {
 						</div>
 					</div>
 					<div className="flex flex-col-reverse xl:flex-row gap-6 xl:gap-16">
-						<div className="w-full xl:w-[75%]">
+						<div className="w-full xl:w-[75%] grid grid-cols-1 lg:grid-cols-2 gap-4">
 							<Link
 								target="blank"
 								className="w-full h-full"
@@ -167,14 +172,53 @@ const BlueInventory: FC = () => {
 									height={1000}
 									src="/img/projects/BlueInventory-Inventory-Management-Software.jpg"
 									alt={"BlueInventory Project"}
-									className="w-full rounded-md h-full mb-6 object-center object-cover"
+									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
+								/>
+							</Link>
+							<Link
+								target="blank"
+								className="w-full h-full"
+								href={`https://BlueInventory.vercel.app`}
+							>
+								<Image
+									width={1000}
+									height={1000}
+									src="/img/projects/BlueInventory-Inventory-Management-Software-(2).jpg"
+									alt={"BlueInventory Project"}
+									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
+								/>
+							</Link>
+							<Link
+								target="blank"
+								className="w-full h-full"
+								href={`https://BlueInventory.vercel.app`}
+							>
+								<Image
+									width={1000}
+									height={1000}
+									src="/img/projects/BlueInventory-Inventory-Management-Software-(3).jpg"
+									alt={"BlueInventory Project"}
+									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
+								/>
+							</Link>
+							<Link
+								target="blank"
+								className="w-full h-full"
+								href={`https://BlueInventory.vercel.app`}
+							>
+								<Image
+									width={1000}
+									height={1000}
+									src="/img/projects/BlueInventory-Inventory-Management-Software-(4).jpg"
+									alt={"BlueInventory Project"}
+									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
 								/>
 							</Link>
 						</div>
 						<div
 							className={
 								styles.techStack +
-								" w-full xl:w-[25%] flex flex-col sm:flex-row xl:flex-col justify-between gap-16 sm:justify-center items-center sm:items-baseline xl:justify-between p-8 rounded-lg bg-white"
+								" w-full xl:w-[25%] rounded-lg bg-white p-8 flex flex-col justify-start gap-10"
 							}
 						>
 							<div className="flex flex-col">

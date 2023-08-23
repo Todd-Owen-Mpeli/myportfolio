@@ -10,7 +10,7 @@ const Layout: FC<ILayout> = ({children}) => {
 		<>
 			<MetaTag />
 
-			<>{children}</>
+			<div className="w-full max-w-[2560px] mx-auto">{children}</div>
 		</>
 	);
 };

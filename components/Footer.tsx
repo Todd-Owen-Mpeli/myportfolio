@@ -3,7 +3,7 @@ import {FC} from "react";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "@/styles/components/Footer.module.scss";
-import {initial, fadeInUp} from "@/animations/animations";
+import {initial, fadeInUp, initialTwo, fadeIn} from "@/animations/animations";
 
 const Footer: FC = () => {
 	return (
@@ -17,14 +17,14 @@ const Footer: FC = () => {
 				<div className="flex items-center justify-center gap-12">
 					<Link
 						target="blank"
-						href={`Todd Owen Mpeli CV.pdf`}
-						download="Todd Owen Mpeli CV.pdf"
+						download="Todd Owen Mpeli - Front-end Developer CV.pdf"
+						href={`/common/Todd-Owen-Mpeli-Front-end-Developer-CV.pdf`}
 					>
 						<motion.button
 							role="button"
 							type="button"
-							initial={initial}
-							whileInView={fadeInUp}
+							initial={initialTwo}
+							whileInView={fadeIn}
 							viewport={{once: true}}
 							aria-label="Download CV Button"
 							className="relative flex items-center justify-center rounded-full overflow-hidden border-2 border-white hover:border-yellow bg-transparent font-semibold px-6 py-1 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-white focus:ring-offset-1"

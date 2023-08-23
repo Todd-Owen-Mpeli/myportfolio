@@ -3,6 +3,12 @@
 @import "../../base/colors";
 
 .starProject {
+	.links {
+		svg:hover {
+			fill: $purple;
+		}
+	}
+
 	.techStack {
 		h1,
 		h2,
@@ -12,6 +18,7 @@
 		h6 {
 			font-family: $body;
 		}
+
 		h3 {
 			strong {
 				font-family: $main;

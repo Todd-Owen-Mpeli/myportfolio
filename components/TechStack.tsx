@@ -1,7 +1,6 @@
 // Import
 import {FC} from "react";
 import Link from "next/link";
-import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "@/styles/components/TechStack.module.scss";
 import {initial, fadeInUp, stagger} from "@/animations/animations";
@@ -71,7 +70,7 @@ const TechStack: FC = () => {
 					</Link>
 					<Link
 						className="flex flex-col gap-2 items-center justify-center"
-						href="//#projects"
+						href="/#projects"
 					>
 						<svg
 							fill="none"

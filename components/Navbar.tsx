@@ -3,7 +3,7 @@ import {FC} from "react";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "@/styles/components/Navbar.module.scss";
-import {initial, fadeInUp, stagger} from "@/animations/animations";
+import {fadeIn, initial, stagger, initialTwo} from "@/animations/animations";
 
 const Navbar: FC = () => {
 	return (
@@ -13,12 +13,12 @@ const Navbar: FC = () => {
 				initial={initial}
 				whileInView={stagger}
 				viewport={{once: true}}
-				className="flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGreyDarker bg-center bg-no-repeat bg-cover"
-				style={{
-					backgroundImage: `url("/svg/background/stacked-waves-haikei-flatBlueGrey-two.svg")`,
-				}}
+				className={
+					styles.nav +
+					" flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGrey lg:bg-flatBlueGreyDarker bg-center bg-no-repeat bg-cover"
+				}
 			>
-				<div className={styles.nav}>
+				<div className={styles.navButton}>
 					<Link target="" href={`/`}>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -54,14 +54,14 @@ const Navbar: FC = () => {
 					<Link
 						target="blank"
 						className="hidden sm:block"
-						href={`Todd Owen Mpeli CV.pdf`}
-						download="Todd Owen Mpeli CV.pdf"
+						download="Todd Owen Mpeli - Front-end Developer CV.pdf"
+						href={`/common/Todd-Owen-Mpeli-Front-end-Developer-CV.pdf`}
 					>
 						<motion.button
 							role="button"
 							type="button"
-							initial={initial}
-							whileInView={fadeInUp}
+							initial={initialTwo}
+							whileInView={fadeIn}
 							viewport={{once: true}}
 							aria-label="Download CV Button"
 							className="relative flex items-center justify-center rounded-full overflow-hidden border-2 border-white hover:border-yellow bg-transparent font-semibold px-6 py-1 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-white focus:ring-offset-1"
@@ -90,14 +90,11 @@ const Navbar: FC = () => {
 					</Link>
 					<div
 						className={
-							styles.nav + " flex items-center justify-center gap-6 sm:gap-12"
+							styles.navButton +
+							" flex items-center justify-center gap-6 sm:gap-12"
 						}
 					>
-						<Link
-							target="blank"
-							// className="hidden sm:block"
-							href={`https://github.com/Todd-Owen-Mpeli`}
-						>
+						<Link target="blank" href={`https://github.com/Todd-Owen-Mpeli`}>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								version="1.1"
@@ -124,7 +121,6 @@ const Navbar: FC = () => {
 						</Link>
 						<Link
 							target="blank"
-							// className="hidden sm:block"
 							href={`https://www.linkedin.com/in/todd-mpeli-831b18121/`}
 						>
 							<svg
