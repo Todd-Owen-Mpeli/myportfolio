@@ -39,7 +39,7 @@ const ContentGrid: FC<IContentGrid> = ({
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="flex items-center justify-start gap-2 text-center lg:text-left uppercase tracking-widest font-bold text-xl mb-2 text-yellow"
+						className="flex items-center justify-center lg:justify-start gap-2 text-center lg:text-left uppercase tracking-widest font-bold text-xl mb-2 text-yellow"
 					>
 						<span>
 							<svg
@@ -103,7 +103,7 @@ const ContentGrid: FC<IContentGrid> = ({
 										content={paragraphThree}
 										tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
 									/>
-									<div className="flex gap-6 mt-6 items-center justify-start">
+									<div className="flex flex-col md:flex-row gap-6 mt-6 items-center justify-center lg:justify-start">
 										{isCompleted ? (
 											<motion.button
 												role="button"
