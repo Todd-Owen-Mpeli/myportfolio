@@ -30,7 +30,7 @@ const ContentGrid: FC<IContentGrid> = ({
 		<>
 			<section className={styles.starProject + " flex flex-col"}>
 				<div
-					className="flex flex-col xl:pt-24 py-16 px-6 sm:px-16 lg:px-20 bg-center bg-no-repeat bg-cover"
+					className="flex flex-col pt-24 py-16 px-6 sm:px-16 lg:px-20 bg-center bg-no-repeat bg-cover"
 					style={{
 						backgroundImage: `url(${backgroundImage})`,
 					}}
@@ -80,7 +80,7 @@ const ContentGrid: FC<IContentGrid> = ({
 						{title}
 					</motion.h2>
 				</div>
-				<div className="bg-white py-32 lg:py-24 flex flex-col px-6 sm:px-16 gap-12 xl:gap-24">
+				<div className="bg-white py-24 flex flex-col px-6 sm:px-16 gap-12 xl:gap-24">
 					<div className="flex flex-col xl:flex-row px-6 sm:px-16 gap-12 xl:gap-24">
 						<div className="flex flex-col w-full xl:w-[80%] gap-12">
 							<div className="flex flex-col xl:flex-row gap-12 xl:gap-24">
