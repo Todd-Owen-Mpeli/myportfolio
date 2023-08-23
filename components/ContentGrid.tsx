@@ -1,11 +1,17 @@
 // Import
+import {
+	fadeIn,
+	initial,
+	stagger,
+	fadeInUp,
+	initialTwo,
+} from "@/animations/animations";
 import {FC} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import {IContentGrid} from "@/types/components";
 import styles from "@/styles/components/projects/StarProject.module.scss";
-import {initial, fadeInUp, initialTwo, fadeIn} from "@/animations/animations";
 
 // Components
 import Paragraph from "@/components/Elements/Paragraph";
@@ -82,8 +88,18 @@ const ContentGrid: FC<IContentGrid> = ({
 				</div>
 				<div className="bg-white py-24 flex flex-col px-6 sm:px-16 gap-12 xl:gap-24">
 					<div className="flex flex-col xl:flex-row px-6 sm:px-16 gap-12 xl:gap-24">
-						<div className="flex flex-col w-full xl:w-[80%] gap-12">
-							<div className="flex flex-col xl:flex-row gap-12 xl:gap-24">
+						<motion.div
+							initial={initial}
+							viewport={{once: true}}
+							whileInView={stagger}
+							className="flex flex-col w-full xl:w-[80%] gap-12"
+						>
+							<motion.div
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="flex flex-col xl:flex-row gap-12 xl:gap-24"
+							>
 								<div className="flex flex-col">
 									<motion.span
 										initial={initial}
@@ -169,8 +185,13 @@ const ContentGrid: FC<IContentGrid> = ({
 										</Link>
 									</div>
 								</div>
-							</div>
-							<div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
+							</motion.div>
+							<motion.div
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4"
+							>
 								{imageGrid?.length > 0 ? (
 									imageGrid.map((item, keys) => (
 										<Image
@@ -185,15 +206,23 @@ const ContentGrid: FC<IContentGrid> = ({
 								) : (
 									<></>
 								)}
-							</div>
-						</div>
-						<div
+							</motion.div>
+						</motion.div>
+						<motion.div
+							initial={initial}
+							viewport={{once: true}}
+							whileInView={stagger}
 							className={
 								styles.techStack +
 								" w-full xl:w-[20%] flex flex-col justify-start gap-10"
 							}
 						>
-							<div className="flex flex-col">
+							<motion.div
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="flex flex-col"
+							>
 								<motion.h3
 									initial={initialTwo}
 									viewport={{once: true}}
@@ -206,8 +235,13 @@ const ContentGrid: FC<IContentGrid> = ({
 									content={sideParagraph}
 									tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
 								/>
-							</div>
-							<div className="flex flex-col">
+							</motion.div>
+							<motion.div
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="flex flex-col"
+							>
 								<motion.h3
 									initial={initialTwo}
 									viewport={{once: true}}
@@ -232,8 +266,13 @@ const ContentGrid: FC<IContentGrid> = ({
 								) : (
 									<></>
 								)}
-							</div>
-							<div className="flex flex-col">
+							</motion.div>
+							<motion.div
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="flex flex-col"
+							>
 								<motion.h3
 									initial={initialTwo}
 									viewport={{once: true}}
@@ -258,8 +297,8 @@ const ContentGrid: FC<IContentGrid> = ({
 								) : (
 									<></>
 								)}
-							</div>
-						</div>
+							</motion.div>
+						</motion.div>
 					</div>
 				</div>
 			</section>

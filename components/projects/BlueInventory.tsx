@@ -1,10 +1,16 @@
 // Import
+import {
+	fadeIn,
+	initial,
+	stagger,
+	fadeInUp,
+	initialTwo,
+} from "@/animations/animations";
 import {FC} from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "@/styles/components/projects/StarProject.module.scss";
-import {initial, fadeInUp, initialTwo, fadeIn} from "@/animations/animations";
 
 // Components
 import Paragraph from "@/components/Elements/Paragraph";
@@ -20,7 +26,12 @@ const BlueInventory: FC = () => {
 				}}
 			>
 				<div className="flex flex-col gap-6 xl:gap-16 py-16 px-6 sm:px-20">
-					<div className="flex flex-col gap-6 lg:gap-12 xl:gap-24 2xl:flex-row">
+					<motion.div
+						initial={initial}
+						viewport={{once: true}}
+						whileInView={stagger}
+						className="flex flex-col gap-6 lg:gap-12 xl:gap-24 2xl:flex-row"
+					>
 						<div className="flex flex-col">
 							<motion.h4
 								initial={initial}
@@ -159,8 +170,13 @@ const BlueInventory: FC = () => {
 								</Link>
 							</div>
 						</div>
-					</div>
-					<div className="flex flex-col-reverse xl:flex-row gap-6 xl:gap-16">
+					</motion.div>
+					<motion.div
+						initial={initial}
+						viewport={{once: true}}
+						whileInView={stagger}
+						className="flex flex-col-reverse xl:flex-row gap-6 xl:gap-16"
+					>
 						<div className="w-full xl:w-[75%] grid grid-cols-1 lg:grid-cols-2 gap-4">
 							<Link
 								target="blank"
@@ -458,7 +474,7 @@ const BlueInventory: FC = () => {
 								</motion.h3>
 							</div>
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			</section>
 		</>
