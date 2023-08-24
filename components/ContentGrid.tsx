@@ -121,22 +121,16 @@ const ContentGrid: FC<IContentGrid> = ({
 									/>
 									<div className="flex flex-col md:flex-row gap-6 mt-6 items-center justify-center lg:justify-start">
 										{isCompleted ? (
-											<motion.button
-												role="button"
-												type="button"
-												initial={initial}
-												whileInView={fadeInUp}
+											<motion.div
+												initial={initialTwo}
+												whileInView={fadeIn}
 												viewport={{once: true}}
-												aria-label="Download CV Button"
-												className="relative flex items-center justify-center rounded-sm overflow-hidden  bg-pinkPurple font-semibold px-6 py-2 transition-all group ease-in-out duration-200 focus:ring-[1px] focus:ring-yellow focus:ring-offset-1"
+												className="rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2"
 											>
-												<div className="absolute top-0 w-full h-full transition duration-200 transform bg-yellow right-full group-hover:translate-x-full group-hover:scale-102" />
-												<div className="flex gap-4 relative mx-auto items-center justify-center">
-													<span className="text-medium font-medium text-left text-white">
-														Work in Progress
-													</span>
-												</div>
-											</motion.button>
+												<span className="text-medium font-medium text-left text-white">
+													Work in Progress
+												</span>
+											</motion.div>
 										) : (
 											<></>
 										)}

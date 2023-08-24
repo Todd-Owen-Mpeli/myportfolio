@@ -1,6 +1,7 @@
 // Import
 import type {NextPage} from "next";
 import {motion} from "framer-motion";
+import {IImageGrid, ITechStack, ISubTechStack} from "@/types/components";
 
 // Components
 import CTA from "@/components/CTA";
@@ -9,7 +10,7 @@ import TechStack from "@/components/TechStack";
 import ContentGrid from "@/components/ContentGrid";
 
 const BlueInventory: NextPage = () => {
-	const imageGrid = [
+	const imageGrid: IImageGrid = [
 		{
 			altText: "BlueInventory Project Image",
 			sourceUrl:
@@ -32,7 +33,7 @@ const BlueInventory: NextPage = () => {
 		},
 	];
 
-	const techStack = [
+	const techStack: ITechStack = [
 		{
 			text: "Firebase",
 		},
@@ -58,7 +59,7 @@ const BlueInventory: NextPage = () => {
 			text: "Tailwindcss",
 		},
 		{
-			text: "REST API&apos;s",
+			text: "REST API's",
 		},
 		{
 			text: "Apollo & Apollo/client",
@@ -80,7 +81,7 @@ const BlueInventory: NextPage = () => {
 		},
 	];
 
-	const subTechStack = [
+	const subTechStack: ISubTechStack = [
 		{
 			text: "Google ReCaptcha v2",
 		},
@@ -135,7 +136,7 @@ const BlueInventory: NextPage = () => {
 				title={"BlueInventory"}
 				subTechStack={subTechStack}
 				sideTitle={`My Improvements:`}
-				liveLink={"https://blueinventory.vercel.app/"}
+				liveLink={"https://blueinventory.vercel.app"}
 				githubLink={"https://github.com/Todd-Owen-Mpeli"}
 				subtitle={"Fully featured web application with cloud database"}
 				backgroundImage={

@@ -3,17 +3,20 @@ export interface IParagraphProps {
 	tailwindStyling: string;
 }
 
+export type ITechStack = {
+	text: string;
+}[];
+
+export type ISubTechStack = {
+	text: string;
+}[];
+
+export type IImageGrid = {
+	altText: string;
+	sourceUrl: string;
+}[];
+
 export interface IContentGrid {
-	techStack: {
-		text: string;
-	}[];
-	subTechStack: {
-		text: string;
-	}[];
-	imageGrid: {
-		altText: string;
-		sourceUrl: string;
-	}[];
 	title: string;
 	subtitle: string;
 	liveLink: string;
@@ -22,9 +25,12 @@ export interface IContentGrid {
 	githubLink: string;
 	isCompleted: boolean;
 	paragraphTwo: string;
+	techStack: ITechStack;
 	sideParagraph: string;
+	imageGrid: IImageGrid;
 	paragraphThree: string;
 	backgroundImage: string;
+	subTechStack: ISubTechStack;
 }
 
 // layout

@@ -15,7 +15,7 @@ const Navbar: FC = () => {
 				viewport={{once: true}}
 				className={
 					styles.nav +
-					" flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGrey lg:bg-flatBlueGreyDarker bg-center bg-no-repeat bg-cover"
+					" flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGrey"
 				}
 			>
 				<div className={styles.navButton}>
