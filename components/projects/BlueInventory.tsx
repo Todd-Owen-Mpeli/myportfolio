@@ -348,6 +348,14 @@ const BlueInventory: FC = () => {
 									whileInView={fadeInUp}
 									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
 								>
+									SASS/SCSS
+								</motion.h3>
+								<motion.h3
+									initial={initial}
+									viewport={{once: true}}
+									whileInView={fadeInUp}
+									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+								>
 									HTML 5
 								</motion.h3>
 								<motion.h3
