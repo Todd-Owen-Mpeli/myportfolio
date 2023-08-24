@@ -1,39 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Intro
+My Developer Portfolio. Containing all my live project for display. All images are in 4K resolution, click to enlarge for better viewing.
 
-## Getting Started
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img src="public/img/projects/Todd-Owen-Mpeli-Developer-Portfolio-one.png" width="640px" height="500px">  |  <img src="public/img/projects/Todd-Owen-Mpeli-Developer-Portfolio-two.png" width="640px" height="500px"> | <img src="public/img/projects/Todd-Owen-Mpeli-Developer-Portfolio-three.png" width="640px" height="500px"> |
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# My Objective
+The purpose of my front-end developer portfolio is to showcase my journey, expertise, and achievements in the realm of web & software development. Through a curated collection of projects, I aim to demonstrate my proficiency in various programming languages, frameworks, and technologies. By highlighting the challenges I've tackled and the solutions I've devised, I hope to underline my problem-solving skills and commitment to continuous improvement.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ultimately, my portfolio serves as a testament to my abilities and stands as an open invitation for collaboration, discussion, and the exploration of new opportunities in the ever-evolving field of software development.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Portfolio Context
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1.) I wanted to be able to create a website to showcase my skills. The primary forcus/purpose of my portfolio is to show a normal person (Not Developer) the depth of my technical skills. It showcases my proficiency in the programming languages, frameworks, tools, and technologies relevant to me.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+All my projects showcased are real-world projects, I have worked to optimize the clients websites, Enhance & intergrate functionality, Improved performance and to deliver an exceptional browsing experience for their users. To future proof and implement up-to-date SEO strategies to attract more organic traffic.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Deployment
 
-## Learn More
+Deployed with vercel here: 
 
-To learn more about Next.js, take a look at the following resources:
+https://toddowenmpeli.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# BlueInventory Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Live Link: https://blueinventory.vercel.app/
+2. Github Link: https://github.com/Todd-Owen-Mpeli/blueinventory
+3. More Info: https://toddowenmpeli.vercel.app/projects/blueinventory
 
-## Deploy on Vercel
+| | |
+|:-------------------------:|:-------------------------:|
+  | One | Two |
+| <img src="public/img/projects/BlueInventory-Inventory-Management-Software.jpg" width="500px" height="350px">  |  <img src="public/img/projects/BlueInventory-Inventory-Management-Software-(2).jpg" width="500px" height="350px"> |
+| | |
+| Three | Four |
+| <img src="public/img/projects/BlueInventory-Inventory-Management-Software-(3).jpg" width="500px" height="640px">  |  <img src="public/img/projects/BlueInventory-Inventory-Management-Software-(4).jpg" width="500px" height="640px"> |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# DBMX-Racing Project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# myportfolio
+1. Live Link: https://dbmx-racing.vercel.app
+2. Github Link: https://github.com/Todd-Owen-Mpeli/DBMX-Racing
+3. More Info: https://toddowenmpeli.vercel.app/projects/DBMXRacing
+
+| | |
+|:-------------------------:|:-------------------------:|
+  | One | Two |
+| <img src="public/img/projects/DBMX-Racing-Motocross-Accessories-Parts.jpg" width="500px" height="350px">  |  <img src="public/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(2).jpg" width="500px" height="350px"> |
+| | |
+| Three | Four |
+| <img src="public/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(6).jpg" width="500px" height="640px">  |  <img src="public/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(7).jpg" width="500px" height="640px"> |
+
+# Image Gallery
+
+<img src="public/img/projects/myportfolio (1).png" width="1280px" height="1000px">
+<img src="public/img/projects/myportfolio (2).png" width="1280px" height="1000px">
+<img src="public/img/projects/myportfolio (3).png" width="1280px" height="1000px">
+<img src="public/img/projects/myportfolio (4).png" width="1280px" height="1440px">
+<img src="public/img/projects/myportfolio (5).png" width="1280px" height="1440px">
