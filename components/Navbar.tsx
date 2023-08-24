@@ -8,11 +8,8 @@ import {fadeIn, initial, stagger, initialTwo} from "@/animations/animations";
 const Navbar: FC = () => {
 	return (
 		<>
-			<motion.nav
+			<nav
 				id="navbar"
-				initial={initial}
-				whileInView={stagger}
-				viewport={{once: true}}
 				className={
 					styles.nav +
 					" flex items-center justify-between gap-4 py-6 px-12 fixed w-full z-[999] bg-flatBlueGrey"
@@ -140,7 +137,7 @@ const Navbar: FC = () => {
 						</Link>
 					</div>
 				</div>
-			</motion.nav>
+			</nav>
 		</>
 	);
 };
