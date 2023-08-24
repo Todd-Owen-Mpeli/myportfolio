@@ -71,6 +71,9 @@ const BlueInventory: NextPage = () => {
 			text: "Headless Wordpress API.",
 		},
 		{
+			text: "SASS/SCSS",
+		},
+		{
 			text: "HTML 5",
 		},
 		{
