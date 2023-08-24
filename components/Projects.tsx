@@ -44,11 +44,15 @@ const Projects: FC = () => {
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										DBMX Racing Website
 									</h3>
 									<Paragraph
-										content={`<p>This is a Next.js 13 project website I've built for a Motocross accessories and parts local business. A Typescript based project using next.js 13 static side rendering. This projects is developed solely with Next.js 13 - featuring, Typescript, Javascript, React 18, Tailwind, and a Headless Wordpress CMS API.</p>`}
+										content={`<p>This is a Next.js 13 project website I've built for a Motocross accessories and parts local business. Is a project I've built for a reputable motocross accessories and parts shop in Gloucester. Presented and aimed at revitalizing and modernizing older version of the client website.
+										</br>
+										</br>
+										I optimize the clients website to deliver an exceptional browsing experience. And implement up-to-date SEO strategies to attract more organic traffic.
+										</p>`}
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
@@ -74,7 +78,7 @@ const Projects: FC = () => {
 											<div className="absolute top-0 w-full h-full transition duration-200 transform bg-purple right-full group-hover:translate-x-full group-hover:scale-102" />
 											<div className="flex gap-4 relative mx-auto items-center justify-center">
 												<span className="text-medium font-medium text-center text-white">
-													More Information
+													More Info
 												</span>
 											</div>
 										</motion.button>
@@ -151,11 +155,14 @@ const Projects: FC = () => {
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Freemans Event Partners Website
 									</h3>
 									<Paragraph
-										content={`<p>This is a Next.js 9 project website I've built for a Motocross accessories and parts local business. A Typescript based project using next.js 13 static side rendering. This projects is developed solely with Next.js 13 - featuring, Typescript, Javascript, React 18, Tailwind, and a Headless Wordpress CMS API.</p>`}
+										content={`<p>Freemans Event Partners is a family owned business,  operating across a wide range of high-profile event venues and festivals. As the lead react.js developer contributor. I collaborate with other developers to create & integrate modern features and functionalities.
+										<br/>
+										<br/>
+										I optimize the clients website to deliver an exceptional browsing experience. And implement up-to-date SEO strategies to attract more organic traffic.</p>`}
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
@@ -184,7 +191,7 @@ const Projects: FC = () => {
 											<div className="absolute top-0 w-full h-full transition duration-200 transform bg-purple right-full group-hover:translate-x-full group-hover:scale-102" />
 											<div className="flex gap-4 relative mx-auto items-center justify-center">
 												<span className="text-medium font-medium text-center text-white">
-													Private Repository
+													More Info
 												</span>
 											</div>
 										</motion.button>
@@ -264,11 +271,14 @@ const Projects: FC = () => {
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										MponjoliMpeli Apartments Website
 									</h3>
 									<Paragraph
-										content={`<p>This is a Next.js 13 project website I've built for a Letting Apartment Business. A Typescript based project using nextjs 13 static side rendering. This projects is developed solely with Next.js 13 - featuring, Typescript, Javascript, React 18, Tailwind, and a Headless Wordpress CMS API.</p>`}
+										content={`<p>This is a Next.js 13 project website I've built for a Letting Apartment Business.
+										</br>
+										</br>
+										Enhanced functionality, Improved performance & contemporary design was the focus. I wanted to achieve a reduction in page load times, integrate modern features and functionalities, and ensuring the website is user-friendly and responsive across all devices.</p>`}
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
@@ -297,7 +307,7 @@ const Projects: FC = () => {
 											<div className="absolute top-0 w-full h-full transition duration-200 transform bg-purple right-full group-hover:translate-x-full group-hover:scale-102" />
 											<div className="flex gap-4 relative mx-auto items-center justify-center">
 												<span className="text-medium font-medium text-center text-white">
-													More Information
+													More Info
 												</span>
 											</div>
 										</motion.button>
@@ -377,11 +387,14 @@ const Projects: FC = () => {
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
 								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
-									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white">
+									<h3 className="uppercase tracking-widest text-center xl:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Kandys Launderette Website
 									</h3>
 									<Paragraph
-										content={`<p>Kandy's Launderette is a small Dry-cleaning store providing a multitude of services, Duvets & Quilts Cleaning, Drying & Washing Machines, Washing Detergent, Professional Ironing and Stain Removing. As a dry-cleaning store all its services are all in-store experience however this store doesn't have an online website for its customers.</p>`}
+										content={`<p>Kandy's Launderette is a small Dry-cleaning store providing a multitude of services, Duvets & Quilts Cleaning, Drying & Washing Machines, Washing Detergent, Professional Ironing and Stain Removing.
+										</br>
+										</br>
+										As a dry-cleaning store all its services are all in-store experience however this store doesn't have an online website for its customers.</p>`}
 										tailwindStyling="text-base max-w-lg text-white text-center lg:text-left"
 									/>
 									<div>
@@ -410,7 +423,7 @@ const Projects: FC = () => {
 											<div className="absolute top-0 w-full h-full transition duration-200 transform bg-purple right-full group-hover:translate-x-full group-hover:scale-102" />
 											<div className="flex gap-4 relative mx-auto items-center justify-center">
 												<span className="text-medium font-medium text-center text-white">
-													More Information
+													More Info
 												</span>
 											</div>
 										</motion.button>
