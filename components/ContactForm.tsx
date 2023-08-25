@@ -127,6 +127,7 @@ const ContactForm: FC = () => {
 			);
 		}
 	};
+
 	return (
 		<>
 			<div
@@ -140,7 +141,7 @@ const ContactForm: FC = () => {
 					<div
 						className="hidden lg:block w-full h-full min-h-[250px] sm:min-h-[450px] lg:min-h-[900px] lg:w-1/2 bg-center bg-no-repeat bg-cover"
 						style={{
-							backgroundImage: `url("/svg/background/stacked-waves-haikei-purple-pinkPurple.svg")`,
+							backgroundImage: `url("/img/contact.jpg")`,
 						}}
 					/>
 					<div className="w-full px-8 py-8 bg-white lg:w-1/2 lg:px-12 overflow-hidden">

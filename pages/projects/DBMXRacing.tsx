@@ -12,24 +12,42 @@ import ContentGrid from "@/components/ContentGrid";
 const DBMXRacing: NextPage = () => {
 	const imageGrid: IImageGrid = [
 		{
-			altText: "BlueInventory Project Image",
+			altText: "DBMX-Racing Project Image",
+			sourceUrl: "/img/projects/DBMX-Racing-Motocross-Accessories-Parts.jpg",
+		},
+		{
+			altText: "DBMX-Racing Project Image",
 			sourceUrl:
 				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(2).jpg",
 		},
 		{
-			altText: "BlueInventory Project Image",
+			altText: "DBMX-Racing Project Image",
 			sourceUrl:
 				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(3).jpg",
 		},
 		{
-			altText: "BlueInventory Project Image",
+			altText: "DBMX-Racing Project Image",
+			sourceUrl:
+				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(4).jpg",
+		},
+		{
+			altText: "DBMX-Racing Project Image",
+			sourceUrl:
+				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(5).jpg",
+		},
+		{
+			altText: "DBMX-Racing Project Image",
 			sourceUrl:
 				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(6).jpg",
 		},
 		{
-			altText: "BlueInventory Project Image",
+			altText: "DBMX-Racing Project Image",
 			sourceUrl:
 				"/img/projects/DBMX-Racing-Motocross-Accessories-Parts-(7).jpg",
+		},
+		{
+			altText: "DBMX-Racing Project Image",
+			sourceUrl: "/img/projects/DBMX Racing - Motocross Accessories Parts.png",
 		},
 	];
 
@@ -129,15 +147,15 @@ const DBMXRacing: NextPage = () => {
 				techStack={techStack}
 				title={"DBMX-Racing"}
 				subTechStack={subTechStack}
-				sideTitle={`My Improvements:`}
+				sideTitle={``}
 				liveLink={"https://dbmx-racing.vercel.app"}
 				githubLink={"https://github.com/Todd-Owen-Mpeli/DBMX-Racing"}
 				subtitle={"Fully featured website"}
 				backgroundImage={"/svg/background/stacked-waves-haikei-pinkRed.svg"}
-				paragraph={`Is a project I've built for a reputable motocross accessories and parts shop in Gloucester. Presented and aimed at revitalizing and modernizing older version of the client website.`}
+				paragraph={`Is a project I've built for a reputable motocross accessories and parts shop in Gloucester. Presented and aimed at revitalizing and modernizing older version of the client website. `}
 				paragraphTwo={`<p></p>`}
 				paragraphThree={`<p>Enhanced functionality, Improved performance & contemporary design was the focus. I wanted to achieve a reduction in page load times, integrate modern features and functionalities, and ensuring the website is user-friendly and responsive across all devices.</p>`}
-				sideParagraph={`<p>Enhanced functionality, Improved performance & contemporary design was the focus. I wanted to achieve a reduction in page load times, integrate modern features and functionalities, and ensuring the website is user-friendly and responsive across all devices.</p>`}
+				sideParagraph={`<p></p>`}
 			/>
 			<TechStack />
 			<CTA />

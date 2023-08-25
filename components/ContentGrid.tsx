@@ -211,25 +211,29 @@ const ContentGrid: FC<IContentGrid> = ({
 								" w-full xl:w-[20%] flex flex-col justify-start gap-10"
 							}
 						>
-							<motion.div
-								initial={initial}
-								viewport={{once: true}}
-								whileInView={fadeInUp}
-								className="flex flex-col"
-							>
-								<motion.h3
-									initial={initialTwo}
+							{sideTitle ? (
+								<motion.div
+									initial={initial}
 									viewport={{once: true}}
-									whileInView={fadeIn}
-									className="text-center lg:text-left font-bold text-lg mb-5 text-flatBlueGreyDarker"
+									whileInView={fadeInUp}
+									className="flex flex-col"
 								>
-									<strong>{sideTitle}</strong>
-								</motion.h3>
-								<Paragraph
-									content={sideParagraph}
-									tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
-								/>
-							</motion.div>
+									<motion.h3
+										initial={initialTwo}
+										viewport={{once: true}}
+										whileInView={fadeIn}
+										className="text-center lg:text-left font-bold text-lg mb-5 text-flatBlueGreyDarker"
+									>
+										<strong>{sideTitle}</strong>
+									</motion.h3>
+									<Paragraph
+										content={sideParagraph}
+										tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
+									/>
+								</motion.div>
+							) : (
+								<></>
+							)}
 							<motion.div
 								initial={initial}
 								viewport={{once: true}}
