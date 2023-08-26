@@ -65,7 +65,7 @@ const BlueInventory: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center lg:text-left uppercase tracking-wider font-bold text-lg mb-10 text-white"
+								className="text-center lg:text-left uppercase tracking-wider font-bold text-base sm:text-lg mb-10 text-white"
 							>
 								Fully featured web application with cloud database
 							</motion.span>
@@ -73,7 +73,7 @@ const BlueInventory: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="break-words text-center lg:text-left uppercase font-bold text-6xl sm:text-7xl lg:text-8xl text-white"
+								className="text-center lg:text-left uppercase font-bold text-4xl sm:text-7xl lg:text-8xl text-white"
 							>
 								BlueInventory
 							</motion.h2>
@@ -83,14 +83,14 @@ const BlueInventory: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center mb-3 lg:text-left text-xl sm:text-2xl text-white"
+								className="text-center mb-3 lg:text-left text-base sm:text-xl sm:text-2xl text-white"
 							>
 								BlueInventory is your powerful non-commerce inventory management
 								solution. Simpler Inventory, easier growth, better management.
 							</motion.span>
 							<Paragraph
 								content={`<p>BlueInventory was born out of the vision to revolutionize how businesses approach inventory management. By reducing complexity, enhancing precision, and fostering growth, it's poised to become the industry benchmark, setting new standards for operational excellence.</p>`}
-								tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
+								tailwindStyling="mb-6 text-base sm:text-xl sm:text-2xl text-white text-center lg:text-left"
 							/>
 							<div
 								className={
@@ -234,7 +234,7 @@ const BlueInventory: FC = () => {
 						<div
 							className={
 								styles.techStack +
-								" w-full xl:w-[25%] rounded-lg bg-white p-8 flex flex-col justify-start gap-10"
+								" w-full xl:w-[25%] rounded-lg bg-white p-8 flex flex-col md:flex-row xl:flex-col justify-center items-center md:items-baseline xl:justify-start gap-10"
 							}
 						>
 							<div className="flex flex-col">
@@ -242,7 +242,7 @@ const BlueInventory: FC = () => {
 									initial={initialTwo}
 									viewport={{once: true}}
 									whileInView={fadeIn}
-									className="text-center lg:text-left font-bold text-lg mb-5 text-flatBlueGreyDarker"
+									className="text-center xl:text-left font-bold text-lg mb-5 text-flatBlueGreyDarker"
 								>
 									<strong>Tech Stack:</strong>
 								</motion.h3>
@@ -250,7 +250,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Firebase
 								</motion.h3>
@@ -258,7 +258,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Next.js 13
 								</motion.h3>
@@ -266,7 +266,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									React 18
 								</motion.h3>
@@ -274,7 +274,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Advanced Custom Fields PRO
 								</motion.h3>
@@ -282,7 +282,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Headless CMS
 								</motion.h3>
@@ -290,7 +290,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Typescript
 								</motion.h3>
@@ -298,7 +298,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Stripe
 								</motion.h3>
@@ -306,7 +306,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Tailwindcss
 								</motion.h3>
@@ -314,7 +314,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									REST API&apos;s
 								</motion.h3>
@@ -322,7 +322,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Apollo & Apollo/client
 								</motion.h3>
@@ -330,7 +330,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									FireStore Cloud Database
 								</motion.h3>
@@ -338,7 +338,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Headless Wordpress API.
 								</motion.h3>
@@ -346,7 +346,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									SASS/SCSS
 								</motion.h3>
@@ -354,7 +354,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									HTML 5
 								</motion.h3>
@@ -362,7 +362,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									CSS
 								</motion.h3>
@@ -370,7 +370,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Javascript
 								</motion.h3>
@@ -380,7 +380,7 @@ const BlueInventory: FC = () => {
 									initial={initialTwo}
 									viewport={{once: true}}
 									whileInView={fadeIn}
-									className="text-center lg:text-left font-bold text-lg my-5 text-flatBlueGreyDarker"
+									className="text-center xl:text-left font-bold text-lg my-5 text-flatBlueGreyDarker"
 								>
 									<strong>Sub Tech Stack:</strong>
 								</motion.h3>
@@ -388,7 +388,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Google ReCaptcha v2
 								</motion.h3>
@@ -396,7 +396,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Git & Github
 								</motion.h3>
@@ -404,7 +404,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Cors
 								</motion.h3>
@@ -412,7 +412,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Babel
 								</motion.h3>
@@ -420,7 +420,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Posthog-js
 								</motion.h3>
@@ -428,7 +428,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Formik
 								</motion.h3>
@@ -436,7 +436,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Framer Motion Animation
 								</motion.h3>
@@ -444,7 +444,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Dompurify & Isomorphic-dompurify
 								</motion.h3>
@@ -452,7 +452,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Nodemailer
 								</motion.h3>
@@ -460,7 +460,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Styled-components
 								</motion.h3>
@@ -468,7 +468,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Validator
 								</motion.h3>
@@ -476,7 +476,7 @@ const BlueInventory: FC = () => {
 									initial={initial}
 									viewport={{once: true}}
 									whileInView={fadeInUp}
-									className="text-center lg:text-left text-base text-flatBlueGreyDarker"
+									className="text-center xl:text-left text-base text-flatBlueGreyDarker"
 								>
 									Sitemap
 								</motion.h3>

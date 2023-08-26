@@ -73,7 +73,7 @@ const ContentGrid: FC<IContentGrid> = ({
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="text-center lg:text-left uppercase tracking-wider font-bold text-lg mb-10 text-white"
+						className="text-center lg:text-left uppercase tracking-wider font-bold text-base sm:text-lg mb-10 text-white"
 					>
 						{subtitle}
 					</motion.span>
@@ -81,43 +81,43 @@ const ContentGrid: FC<IContentGrid> = ({
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="break-words text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl text-white"
+						className="text-center lg:text-left uppercase font-bold text-4xl sm:text-7xl lg:text-9xl text-white"
 					>
 						{title}
 					</motion.h2>
 				</div>
 				<div className="bg-white py-24 flex flex-col px-6 sm:px-16 gap-12 xl:gap-24">
-					<div className="flex flex-col xl:flex-row px-6 sm:px-16 gap-12 xl:gap-24">
+					<div className="flex flex-col xl:flex-row px-0 sm:px-16 gap-12 xl:gap-24">
 						<motion.div
 							initial={initial}
 							viewport={{once: true}}
 							whileInView={stagger}
-							className="flex flex-col w-full xl:w-[80%] gap-12"
+							className="flex flex-col w-full xl:w-[80%] gap-4 sm:gap-12"
 						>
 							<motion.div
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="flex flex-col xl:flex-row gap-12 xl:gap-24"
+								className="flex flex-col xl:flex-row gap-4 sm:gap-12 xl:gap-24"
 							>
 								<div className="flex flex-col">
 									<motion.span
 										initial={initial}
 										viewport={{once: true}}
 										whileInView={fadeInUp}
-										className="text-center mb-3 lg:text-left text-xl sm:text-2xl font-bold text-flatBlueGreyDarker"
+										className="text-center mb-3 lg:text-left text-base sm:text-xl sm:text-2xl font-bold text-flatBlueGreyDarker"
 									>
 										{paragraph}
 									</motion.span>
 									<Paragraph
 										content={paragraphTwo}
-										tailwindStyling="mt-6 mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
+										tailwindStyling="mt-6 mb-6 text-base sm:text-xl sm:text-2xl text-flatBlueGreyDarker text-center lg:text-left"
 									/>
 								</div>
 								<div className="flex flex-col">
 									<Paragraph
 										content={paragraphThree}
-										tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
+										tailwindStyling="mb-6 text-base sm:text-xl sm:text-2xl text-flatBlueGreyDarker text-center lg:text-left"
 									/>
 									<div className="flex flex-col md:flex-row gap-6 mt-6 items-center justify-center lg:justify-start">
 										{isCompleted ? (
@@ -127,7 +127,7 @@ const ContentGrid: FC<IContentGrid> = ({
 												viewport={{once: true}}
 												className="rounded-sm overflow-hidden bg-pinkRed font-semibold px-6 py-2"
 											>
-												<span className="text-medium font-medium text-left text-white">
+												<span className="text-medium text-left text-white">
 													Work in Progress
 												</span>
 											</motion.div>
@@ -146,7 +146,7 @@ const ContentGrid: FC<IContentGrid> = ({
 											>
 												<div className="absolute top-0 w-full h-full transition duration-200 transform bg-yellow right-full group-hover:translate-x-full group-hover:scale-102" />
 												<div className="flex gap-4 relative mx-auto items-center justify-center">
-													<span className="text-medium font-medium text-left text-white">
+													<span className="text-medium text-left text-white">
 														Live Link
 													</span>
 												</div>
@@ -228,7 +228,7 @@ const ContentGrid: FC<IContentGrid> = ({
 									</motion.h3>
 									<Paragraph
 										content={sideParagraph}
-										tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker font-medium text-center lg:text-left"
+										tailwindStyling="mb-6 text-lg text-flatBlueGreyDarker text-center lg:text-left"
 									/>
 								</motion.div>
 							) : (

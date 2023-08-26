@@ -60,17 +60,17 @@ const Experience: FC = () => {
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="break-words text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl mb-16 text-white"
+						className="text-center lg:text-left uppercase font-bold text-4xl sm:text-8xl lg:text-9xl mb-16 text-white"
 					>
 						Web Development
 					</motion.h3>
 					<Paragraph
 						content={`<p>I enjoy solving problems with clean scalable solutions. I am dedicated to bringing ideas to life through the power of code and creativity. My goal is to blend seamless functionality with stunning aesthetics, all while ensuring top-tier user experiences. </p>`}
-						tailwindStyling="mb-6 text-xl sm:text-2xl text-white text-center lg:text-left"
+						tailwindStyling="mb-6 text-base sm:text-xl sm:text-2xl text-white text-center lg:text-left"
 					/>
 					<Paragraph
 						content={`<p>I thrive on the challenges that front-end development offers and constantly seek innovative ways to push the boundaries of what's possible. Join me on this journey as I explore and conquer all things front-end, one pixel at a time.</p>`}
-						tailwindStyling="mb-6 text-xl sm:text-2xl text-darkGrey text-center lg:text-left"
+						tailwindStyling="mb-6 text-base sm:text-xl sm:text-2xl text-darkGrey text-center lg:text-left"
 					/>
 				</div>
 			</div>
