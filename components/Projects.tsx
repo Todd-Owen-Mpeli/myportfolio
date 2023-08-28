@@ -43,7 +43,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										DBMX Racing Website
 									</h3>
@@ -154,7 +154,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Freemans Event Partners Website
 									</h3>
@@ -270,7 +270,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										MponjoliMpeli Apartments Website
 									</h3>
@@ -386,7 +386,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Kandys Launderette Website
 									</h3>
