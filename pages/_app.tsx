@@ -8,13 +8,13 @@ import postHog from "posthog-js";
 import {PostHogProvider} from "posthog-js/react";
 
 // Global Context Provider
-import {GlobalContext} from "@/context/Global";
 import CookiePolicyCard from "@/components/Elements/CookiePolicyCard";
 
 // Styling
 import "../styles/globals.scss";
-import Layout from "@/components/Layout/Layout";
 import Footer from "@/components/Footer";
+import Layout from "@/components/Layout/Layout";
+import GlobalContextProvider from "@/components/context/GlobalContextProvider";
 
 // Check that PostHog is client-side (used to handle Next.js SSR)
 if (typeof window !== "undefined") {
@@ -107,12 +107,7 @@ export default function App({Component, pageProps}: AppProps) {
 
 	return (
 		<PostHogProvider client={postHog}>
-			<GlobalContext.Provider
-				value={{
-					name: `Todd Owen Mpeli`,
-					email: `${process.env.EMAIL_USER}`,
-				}}
-			>
+			<GlobalContextProvider name={`Todd Owen Mpeli`}>
 				{/* Cookie Policy Pop Up */}
 				{postHog.has_opted_in_capturing() ||
 				postHog.has_opted_out_capturing() ? null : (
@@ -123,7 +118,7 @@ export default function App({Component, pageProps}: AppProps) {
 					<Component {...pageProps} />
 					<Footer />
 				</Layout>
-			</GlobalContext.Provider>
+			</GlobalContextProvider>
 		</PostHogProvider>
 	);
 }
