@@ -32,7 +32,7 @@ const Experience: FC = () => {
 							<h3 className="text-4xl tracking-widest">plus</h3>
 						</motion.h3>
 						<span className="text-center mt-10 font-bold text-xl sm:text-4xl text-white">
-							Years of Open Source Contributions
+							Years of Experience
 						</span>
 					</motion.div>
 					<motion.div
