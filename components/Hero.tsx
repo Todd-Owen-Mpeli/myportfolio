@@ -40,7 +40,7 @@ const Hero: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center lg:text-left uppercase font-bold text-8xl sm:text-8xl text-white"
+								className="text-center lg:text-left uppercase font-bold text-5xl sm:text-6xl md:text-8xl text-white"
 							>
 								Front-end Developer
 							</motion.h1>
@@ -48,10 +48,10 @@ const Hero: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="flex items-center gap-2 mt-2 text-center lg:text-left tracking-[0.075rem] uppercase font-bold text-3xl mb-5 text-white"
+								className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-2 mt-6 sm:mt-2 text-center lg:text-left tracking-[0.075rem] uppercase font-bold text-3xl mb-5 text-white"
 							>
 								my name is
-								<span className="border-b-2 border-yellow text-yellow tracking-widest mx-2 my-4 pb-[1px] leading-[2.75rem]">
+								<span className="border-b-2 border-yellow text-yellow tracking-widest mx-2 my-0 sm:my-4 pb-[1px] leading-[2.75rem]">
 									Todd Owen Mpeli
 								</span>
 							</motion.h2>
