@@ -29,26 +29,36 @@ const Hero: FC = () => {
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center lg:text-left uppercase font-bold text-xl mb-5 text-white"
+								className="text-center lg:text-left tracking-[0.075rem] uppercase font-bold text-3xl mb-5 text-white"
 							>
-								I am
+								<span className="border-b-2 border-yellow text-yellow tracking-widest mx-2 my-4 pb-[1px] leading-[2.75rem]">
+									Hello!,
+								</span>{" "}
+								I am a
 							</motion.h2>
 							<motion.h1
 								initial={initial}
 								viewport={{once: true}}
 								whileInView={fadeInUp}
-								className="text-center lg:text-left uppercase font-bold text-8xl sm:text-9xl text-white"
+								className="text-center lg:text-left uppercase font-bold text-8xl sm:text-8xl text-white"
 							>
-								Todd Owen Mpeli
+								Front-end Developer
 							</motion.h1>
+							<motion.h2
+								initial={initial}
+								viewport={{once: true}}
+								whileInView={fadeInUp}
+								className="flex items-center gap-2 mt-2 text-center lg:text-left tracking-[0.075rem] uppercase font-bold text-3xl mb-5 text-white"
+							>
+								my name is
+								<span className="border-b-2 border-yellow text-yellow tracking-widest mx-2 my-4 pb-[1px] leading-[2.75rem]">
+									Todd Owen Mpeli
+								</span>
+							</motion.h2>
 							<Paragraph
 								content={`<p>A passionate front-end developer with a love for crafting immersive digital experiences. With a deep-rooted knowledge in <span><a href="#skills">Next.js 13</a></span>, <span><a href="#skills">TypeScript v5</a></span>, <span><a href="#skills">React 18</a></span>, <span><a href="#skills">GraphQL 16</a></span>, <span><a href="#skills">Headless CMS</a></span> and the intricate world of Web Development.</p>`}
 								tailwindStyling="mt-16 mb-6 text-xl sm:text-2xl text-white font-normal text-left max-w-3xl w-full"
 							/>
-							{/* <Paragraph
-								content={`<p>A passionate front-end developer with a love for crafting immersive digital experiences. With a deep-rooted knowledge in Next.js 13, TypeScript v5, React 18, GraphQL 16, Headless CMS and the intricate world of Web Development.</p>`}
-								tailwindStyling="mt-16 mb-6 text-xl sm:text-2xl text-white font-normal text-left max-w-3xl w-full"
-							/> */}
 						</div>
 						<div className="w-full lg:w-1/2">
 							<motion.ul
