@@ -1,4 +1,4 @@
-// Import
+// Imports
 import {FC} from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,17 +13,17 @@ const Projects: FC = () => {
 		<>
 			<section
 				id="projects"
-				className="px-4 sm:px-10 py-24 sm:py-44 min-h-[250px] bg-yellow flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
-				style={{
-					backgroundImage: `url("/svg/background/stacked-waves-haikei-purple-pinkPurple.svg")`,
-				}}
+				className="px-4 sm:px-10 py-24 sm:py-44 min-h-[250px] bg-white flex flex-col items-center justify-center gap-12 bg-center bg-no-repeat bg-cover"
+				// style={{
+				// 	backgroundImage: `url("/svg/background/stacked-waves-haikei-purple-pinkPurple.svg")`,
+				// }}
 			>
 				<div className="flex flex-col items-center">
 					<motion.h4
 						initial={initial}
 						viewport={{once: true}}
 						whileInView={fadeInUp}
-						className="text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl text-pinkPurple"
+						className="text-center lg:text-left uppercase font-bold text-6xl sm:text-8xl lg:text-9xl text-yellow"
 					>
 						Projects
 					</motion.h4>
@@ -43,7 +43,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center lg:items-start">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										DBMX Racing Website
 									</h3>
@@ -154,7 +154,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center lg:items-start">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Freemans Event Partners Website
 									</h3>
@@ -270,7 +270,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center lg:items-start">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										MponjoliMpeli Apartments Website
 									</h3>
@@ -386,7 +386,7 @@ const Projects: FC = () => {
 								/>
 							</Link>
 							<div className="flex flex-col xl:flex-row gap-4 items-center justify-between w-full">
-								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center">
+								<div className="flex flex-col gap-4 xl:gap-8 justify-between items-center lg:items-start">
 									<h3 className="uppercase text-center lg:text-left font-[900] text-xl sm:text-2xl lg:text-3xl text-white tracking-[0.25rem]">
 										Kandys Launderette Website
 									</h3>

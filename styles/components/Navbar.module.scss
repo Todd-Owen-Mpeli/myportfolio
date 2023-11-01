@@ -13,4 +13,18 @@
 			}
 		}
 	}
+
+	// Google Translate Navigation SVG
+	.openGoogleTranslateSVG,
+	.closeGoogleTranslateSVG:hover {
+		fill: none;
+
+		g,
+		path {
+			fill: none;
+		}
+		line {
+			fill: none;
+		}
+	}
 }

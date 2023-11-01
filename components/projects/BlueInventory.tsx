@@ -1,4 +1,4 @@
-// Import
+// Imports
 import {
 	fadeIn,
 	initial,
@@ -186,7 +186,7 @@ const BlueInventory: FC = () => {
 								<Image
 									width={1000}
 									height={1000}
-									src="/img/projects/BlueInventory-Inventory-Management-Software.jpg"
+									src="/img/projects/BlueInventory-Inventory-Management-Software-(6).jpg"
 									alt={"BlueInventory Project"}
 									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
 								/>
@@ -199,7 +199,7 @@ const BlueInventory: FC = () => {
 								<Image
 									width={1000}
 									height={1000}
-									src="/img/projects/BlueInventory-Inventory-Management-Software-(2).jpg"
+									src="/img/projects/BlueInventory-Inventory-Management-Software-(8).jpg"
 									alt={"BlueInventory Project"}
 									className="w-full rounded-md h-full max-h-[500px] object-center object-cover"
 								/>

@@ -1,4 +1,4 @@
-// Import
+// Imports
 import type {NextPage} from "next";
 import {motion} from "framer-motion";
 import {IImageGrid, ITechStack, ISubTechStack} from "@/types/components";

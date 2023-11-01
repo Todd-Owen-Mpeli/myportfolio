@@ -1,4 +1,4 @@
-// Import
+// Imports
 import {Readable} from "stream";
 import {SitemapStream, streamToPromise} from "sitemap";
 

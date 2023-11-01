@@ -1,4 +1,4 @@
-// Import
+// Imports
 import {useRouter} from "next/router";
 import type {AppProps} from "next/app";
 import {useState, useEffect} from "react";
@@ -7,40 +7,18 @@ import {useState, useEffect} from "react";
 import postHog from "posthog-js";
 import {PostHogProvider} from "posthog-js/react";
 
-// Global Context Provider
-import CookiePolicyCard from "@/components/Elements/CookiePolicyCard";
-
 // Styling
 import "../styles/globals.scss";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout/Layout";
 import GlobalContextProvider from "@/components/context/GlobalContextProvider";
-
-// Check that PostHog is client-side (used to handle Next.js SSR)
-if (typeof window !== "undefined") {
-	postHog.init(`${process.env.POSTHOG_KEY}`, {
-		api_host: `${process.env.POSTHOG_HOST}` || "https://app.posthog.com",
-		// Disable in development
-		loaded: (postHog) => {
-			if (process.env.NODE_ENV === "development") postHog.opt_out_capturing();
-		},
-	});
-}
+import PostHogContextProvider from "@/components/context/PostHogProviderContext";
+import GoogleTranslateContextProvider from "@/components/context/GoogleTranslateContextProvider";
 
 export default function App({Component, pageProps}: AppProps) {
 	// COOKIES POLICY //
 	// PostHog Cookies Policy
 	const router: any = useRouter();
-
-	useEffect(() => {
-		// Track page views
-		const handleRouteChange = () => postHog?.capture("$pageview");
-		router.events.on("routeChangeComplete", handleRouteChange);
-
-		return () => {
-			router.events.off("routeChangeComplete", handleRouteChange);
-		};
-	});
 
 	// PAGE LOADING ANIMATION //
 	// Page Animation Loader
@@ -108,16 +86,15 @@ export default function App({Component, pageProps}: AppProps) {
 	return (
 		<PostHogProvider client={postHog}>
 			<GlobalContextProvider name={`Todd Owen Mpeli`}>
-				{/* Cookie Policy Pop Up */}
-				{postHog.has_opted_in_capturing() ||
-				postHog.has_opted_out_capturing() ? null : (
-					<CookiePolicyCard />
-				)}
-				<Layout>
-					<Loading />
-					<Component {...pageProps} />
-					<Footer />
-				</Layout>
+				<GoogleTranslateContextProvider>
+					<Layout>
+						{/* Cookie Policy Pop Up */}
+						<PostHogContextProvider />
+						<Loading />
+						<Component {...pageProps} />
+						<Footer />
+					</Layout>
+				</GoogleTranslateContextProvider>
 			</GlobalContextProvider>
 		</PostHogProvider>
 	);

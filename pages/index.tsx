@@ -1,4 +1,4 @@
-// Import
+// Imports
 import type {NextPage} from "next";
 import {motion} from "framer-motion";
 
@@ -6,6 +6,7 @@ import {motion} from "framer-motion";
 import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import ContactForm from "@/components/ContactForm";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 			initial="initial"
 			animate="animate"
 		>
+			<Navbar />
 			<Hero />
 			<Experience />
 			<BlueInventory />

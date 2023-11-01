@@ -1,4 +1,4 @@
-// Import
+// Imports
 import type {NextPage} from "next";
 import {motion} from "framer-motion";
 import {IImageGrid, ITechStack, ISubTechStack} from "@/types/components";
@@ -14,12 +14,12 @@ const BlueInventory: NextPage = () => {
 		{
 			altText: "BlueInventory Project Image",
 			sourceUrl:
-				"/img/projects/BlueInventory-Inventory-Management-Software.jpg",
+				"/img/projects/BlueInventory-Inventory-Management-Software-(6).jpg",
 		},
 		{
 			altText: "BlueInventory Project Image",
 			sourceUrl:
-				"/img/projects/BlueInventory-Inventory-Management-Software-(2).jpg",
+				"/img/projects/BlueInventory-Inventory-Management-Software-(8).jpg",
 		},
 		{
 			altText: "BlueInventory Project Image",
@@ -30,6 +30,16 @@ const BlueInventory: NextPage = () => {
 			altText: "BlueInventory Project Image",
 			sourceUrl:
 				"/img/projects/BlueInventory-Inventory-Management-Software-(4).jpg",
+		},
+		{
+			altText: "BlueInventory Project Image",
+			sourceUrl:
+				"/img/projects/BlueInventory-Inventory-Management-Software-(10).png",
+		},
+		{
+			altText: "BlueInventory Project Image",
+			sourceUrl:
+				"/img/projects/BlueInventory-Inventory-Management-Software-(7).png",
 		},
 	];
 
