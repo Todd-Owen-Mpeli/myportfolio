@@ -36,7 +36,7 @@ const Experience: FC = () => {
 							whileInView={fadeInUp}
 							className="flex flex-col items-center gap-8 sm:flex-row text-center uppercase font-bold text-9xl text-purple"
 						>
-							<h3 className="">2</h3>
+							<h3 className="">3</h3>
 							<h3 className="text-4xl tracking-widest">plus</h3>
 						</motion.h3>
 						<span className="text-center mt-10 font-bold text-xl sm:text-4xl text-white">
@@ -55,7 +55,7 @@ const Experience: FC = () => {
 							whileInView={fadeInUp}
 							className="flex flex-col items-center gap-8 sm:flex-row text-center uppercase font-bold text-9xl text-purple"
 						>
-							<h3 className="">87</h3>
+							<h3 className="">97</h3>
 							<h3 className="text-4xl tracking-widest">plus</h3>
 						</motion.h3>
 						<span className="text-center mt-10 font-bold text-xl sm:text-4xl text-white">
@@ -82,7 +82,7 @@ const Experience: FC = () => {
 					/>
 				</div>
 			</div>
-			<div
+			{/* <div
 				id="experience"
 				className="flex flex-col items-center justify-center pt-[40rem] lg:pt-[28rem] py-32 xl:pt-[20rem] px-6 md:px-10 bg-flatBlueGreyDarker gap-6 xl:gap-12"
 			>
@@ -176,7 +176,7 @@ const Experience: FC = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</>
 	);
 };
